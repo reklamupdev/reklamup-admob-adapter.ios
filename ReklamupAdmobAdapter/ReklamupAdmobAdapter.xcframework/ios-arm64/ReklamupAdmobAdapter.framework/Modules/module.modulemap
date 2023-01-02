@@ -1,0 +1,4 @@
+framework module ReklamupAdmobAdapter {
+  header "ReklamupAdmobAdapter-Swift.h"
+  requires objc
+}

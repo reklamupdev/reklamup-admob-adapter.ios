@@ -1,0 +1,4103 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RUPCustomEventRewardedInterstitial",
+        "printedName": "RUPCustomEventRewardedInterstitial",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADRewardedInterstitialAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADRewardedInterstitialAd",
+                    "printedName": "GoogleMobileAds.GADRewardedInterstitialAd",
+                    "usr": "c:objc(cs)GADRewardedInterstitialAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADRewardedInterstitialAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADRewardedInterstitialAd",
+                        "printedName": "GoogleMobileAds.GADRewardedInterstitialAd",
+                        "usr": "c:objc(cs)GADRewardedInterstitialAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADRewardedInterstitialAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADRewardedInterstitialAd",
+                        "printedName": "GoogleMobileAds.GADRewardedInterstitialAd",
+                        "usr": "c:objc(cs)GADRewardedInterstitialAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC10rewardedAdSo011GADRewardedgI0CSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADMediationRewardedAdEventDelegate",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                    "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionHandler",
+            "printedName": "completionHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAdEventDelegate",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                            "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAd",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                "usr": "c:objc(pl)GADMediationRewardedAd"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationRewardedAd",
+                                    "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                    "usr": "c:objc(pl)GADMediationRewardedAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationRewardedAd",
+                                    "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                    "usr": "c:objc(pl)GADMediationRewardedAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0jfK0_pSg_s5Error_pSgtcSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RUPCustomEventRewardedInterstitial",
+                "printedName": "ReklamupAdmobAdapter.RUPCustomEventRewardedInterstitial",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)init",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialCACycfc",
+            "moduleName": "ReklamupAdmobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewarded",
+            "printedName": "loadRewarded(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0lfmE8Delegate_pSgSo0lfM0_pSg_s5Error_pSgtctF",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0lfmE8Delegate_pSgSo0lfM0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)presentFromViewController:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC7present4fromySo16UIViewControllerC_tF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "presentFromViewController:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullN12PresentingAd_p_s0Q0_ptF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC30adWillPresentFullScreenContentyySo07GADFullL12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC29adDidDismissFullScreenContentyySo07GADFullL12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)adDidRecordClick:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC16adDidRecordClickyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial(im)adDidRecordImpression:",
+            "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC21adDidRecordImpressionyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewardedInterstitial",
+        "mangledName": "$s20ReklamupAdmobAdapter34RUPCustomEventRewardedInterstitialC",
+        "moduleName": "ReklamupAdmobAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RUPCustomEvent",
+        "printedName": "RUPCustomEvent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RUPCustomEvent",
+                "printedName": "ReklamupAdmobAdapter.RUPCustomEvent",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(im)init",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventCACycfc",
+            "moduleName": "ReklamupAdmobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adSDKVersion",
+            "printedName": "adSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(cm)adSDKVersion",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC12adSDKVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "ReklamupAdmobAdapter",
+            "static": true,
+            "objc_name": "adSDKVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADVersionNumber",
+                "printedName": "GoogleMobileAds.GADVersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(cm)adapterVersion",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC14adapterVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "ReklamupAdmobAdapter",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkExtrasClass",
+            "printedName": "networkExtrasClass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADAdNetworkExtras.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "GoogleMobileAds.GADAdNetworkExtras.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADAdNetworkExtras",
+                        "printedName": "GoogleMobileAds.GADAdNetworkExtras",
+                        "usr": "c:objc(pl)GADAdNetworkExtras"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(cm)networkExtrasClass",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC18networkExtrasClassSo012GADAdNetworkG0_pXpSgyFZ",
+            "moduleName": "ReklamupAdmobAdapter",
+            "static": true,
+            "objc_name": "networkExtrasClass",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpWith",
+            "printedName": "setUpWith(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationServerConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationServerConfiguration",
+                "usr": "c:objc(cs)GADMediationServerConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(cm)setUpWithConfiguration:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC9setUpWith_17completionHandlerySo31GADMediationServerConfigurationC_ys5Error_pSgctFZ",
+            "moduleName": "ReklamupAdmobAdapter",
+            "static": true,
+            "objc_name": "setUpWithConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationBannerAd",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAd",
+                            "usr": "c:objc(pl)GADMediationBannerAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(im)loadBannerForAdConfiguration:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC10loadBanner3for17completionHandlerySo012GADMediationG15AdConfigurationC_So0kglE8Delegate_pSgSo0kgL0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "loadBannerForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationInterstitialAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationInterstitialAdConfiguration",
+                "usr": "c:objc(cs)GADMediationInterstitialAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationInterstitialAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationInterstitialAd",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAd",
+                            "usr": "c:objc(pl)GADMediationInterstitialAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(im)loadInterstitialForAdConfiguration:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC16loadInterstitial3for17completionHandlerySo012GADMediationG15AdConfigurationC_So0kglE8Delegate_pSgSo0kgL0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "loadInterstitialForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(im)loadRewardedAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC14loadRewardedAd3for17completionHandlerySo012GADMediationgH13ConfigurationC_So0lghE8Delegate_pSgSo0lgH0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "loadRewardedAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedInterstitialAd",
+            "printedName": "loadRewardedInterstitialAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent(im)loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC26loadRewardedInterstitialAd3for17completionHandlerySo012GADMediationgI13ConfigurationC_So0mgiE8Delegate_pSgSo0mgI0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEvent",
+        "mangledName": "$s20ReklamupAdmobAdapter14RUPCustomEventC",
+        "moduleName": "ReklamupAdmobAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RUPCustomEventRewarded",
+        "printedName": "RUPCustomEventRewarded",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADRewardedAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADRewardedAd",
+                    "printedName": "GoogleMobileAds.GADRewardedAd",
+                    "usr": "c:objc(cs)GADRewardedAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADRewardedAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADRewardedAd",
+                        "printedName": "GoogleMobileAds.GADRewardedAd",
+                        "usr": "c:objc(cs)GADRewardedAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADRewardedAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADRewardedAd",
+                        "printedName": "GoogleMobileAds.GADRewardedAd",
+                        "usr": "c:objc(cs)GADRewardedAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC10rewardedAdSo011GADRewardedH0CSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADMediationRewardedAdEventDelegate",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                    "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionHandler",
+            "printedName": "completionHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAdEventDelegate",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                            "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAd",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                "usr": "c:objc(pl)GADMediationRewardedAd"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationRewardedAd",
+                                    "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                    "usr": "c:objc(pl)GADMediationRewardedAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationRewardedAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationRewardedAd",
+                                    "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                                    "usr": "c:objc(pl)GADMediationRewardedAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RUPCustomEventRewarded",
+                "printedName": "ReklamupAdmobAdapter.RUPCustomEventRewarded",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)init",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedCACycfc",
+            "moduleName": "ReklamupAdmobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewarded",
+            "printedName": "loadRewarded(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?) -> GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationRewardedAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationRewardedAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationRewardedAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationRewardedAd",
+                            "printedName": "GoogleMobileAds.GADMediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ReklamupAdmobAdapter22RUPCustomEventRewardedC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0kflE8Delegate_pSgSo0kfL0_pSg_s5Error_pSgtctF",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0kflE8Delegate_pSgSo0kfL0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)presentFromViewController:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC7present4fromySo16UIViewControllerC_tF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "presentFromViewController:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullM12PresentingAd_p_s0P0_ptF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC30adWillPresentFullScreenContentyySo07GADFullK12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC29adDidDismissFullScreenContentyySo07GADFullK12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)adDidRecordClick:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC16adDidRecordClickyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded(im)adDidRecordImpression:",
+            "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC21adDidRecordImpressionyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventRewarded",
+        "mangledName": "$s20ReklamupAdmobAdapter22RUPCustomEventRewardedC",
+        "moduleName": "ReklamupAdmobAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RUPCustomEventInterstitial",
+        "printedName": "RUPCustomEventInterstitial",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "interstitial",
+            "printedName": "interstitial",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADInterstitialAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADInterstitialAd",
+                    "printedName": "GoogleMobileAds.GADInterstitialAd",
+                    "usr": "c:objc(cs)GADInterstitialAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADInterstitialAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADInterstitialAd",
+                        "printedName": "GoogleMobileAds.GADInterstitialAd",
+                        "usr": "c:objc(cs)GADInterstitialAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADInterstitialAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADInterstitialAd",
+                        "printedName": "GoogleMobileAds.GADInterstitialAd",
+                        "usr": "c:objc(cs)GADInterstitialAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC12interstitialSo17GADInterstitialAdCSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADMediationInterstitialAdEventDelegate",
+                    "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                    "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationInterstitialAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationInterstitialAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionHandler",
+            "printedName": "completionHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationInterstitialAdEventDelegate",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                            "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAd?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationInterstitialAd",
+                                "printedName": "GoogleMobileAds.GADMediationInterstitialAd",
+                                "usr": "c:objc(pl)GADMediationInterstitialAd"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationInterstitialAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationInterstitialAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationInterstitialAd",
+                                    "printedName": "GoogleMobileAds.GADMediationInterstitialAd",
+                                    "usr": "c:objc(pl)GADMediationInterstitialAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationInterstitialAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationInterstitialAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationInterstitialAd",
+                                    "printedName": "GoogleMobileAds.GADMediationInterstitialAd",
+                                    "usr": "c:objc(pl)GADMediationInterstitialAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RUPCustomEventInterstitial",
+                "printedName": "ReklamupAdmobAdapter.RUPCustomEventInterstitial",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)init",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialCACycfc",
+            "moduleName": "ReklamupAdmobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationInterstitialAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationInterstitialAdConfiguration",
+                "usr": "c:objc(cs)GADMediationInterstitialAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?) -> GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationInterstitialAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationInterstitialAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationInterstitialAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationInterstitialAd",
+                            "printedName": "GoogleMobileAds.GADMediationInterstitialAd",
+                            "usr": "c:objc(pl)GADMediationInterstitialAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ReklamupAdmobAdapter26RUPCustomEventInterstitialC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0kflE8Delegate_pSgSo0kfL0_pSg_s5Error_pSgtctF",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0kflE8Delegate_pSgSo0kfL0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)presentFromViewController:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC7present4fromySo16UIViewControllerC_tF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "presentFromViewController:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullM12PresentingAd_p_s0P0_ptF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC30adWillPresentFullScreenContentyySo07GADFullK12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC29adDidDismissFullScreenContentyySo07GADFullK12PresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)adDidRecordClick:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC16adDidRecordClickyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADFullScreenPresentingAd",
+                "printedName": "GoogleMobileAds.GADFullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial(im)adDidRecordImpression:",
+            "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC21adDidRecordImpressionyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventInterstitial",
+        "mangledName": "$s20ReklamupAdmobAdapter26RUPCustomEventInterstitialC",
+        "moduleName": "ReklamupAdmobAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ReklamupAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RUPCustomEventBanner",
+        "printedName": "RUPCustomEventBanner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerAd",
+            "printedName": "bannerAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADBannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADBannerView",
+                    "printedName": "GoogleMobileAds.GADBannerView",
+                    "usr": "c:objc(cs)GADBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADBannerView",
+                        "printedName": "GoogleMobileAds.GADBannerView",
+                        "usr": "c:objc(cs)GADBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADBannerView",
+                        "printedName": "GoogleMobileAds.GADBannerView",
+                        "usr": "c:objc(cs)GADBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8bannerAdSo13GADBannerViewCSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADMediationBannerAdEventDelegate",
+                    "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                    "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC8delegateSo012GADMediationf2AdE8Delegate_pSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionHandler",
+            "printedName": "completionHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationBannerAdEventDelegate",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                            "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAd?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationBannerAd",
+                                "printedName": "GoogleMobileAds.GADMediationBannerAd",
+                                "usr": "c:objc(pl)GADMediationBannerAd"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationBannerAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationBannerAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationBannerAd",
+                                    "printedName": "GoogleMobileAds.GADMediationBannerAd",
+                                    "usr": "c:objc(pl)GADMediationBannerAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GADMediationBannerAdEventDelegate",
+                                "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                                "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "GoogleMobileAds.GADMediationBannerAd?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GADMediationBannerAd",
+                                    "printedName": "GoogleMobileAds.GADMediationBannerAd",
+                                    "usr": "c:objc(pl)GADMediationBannerAd"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvs",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC17completionHandlerSo012GADMediationf2AdE8Delegate_pSgSo0ifJ0_pSg_s5Error_pSgtcSgvM",
+                "moduleName": "ReklamupAdmobAdapter",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(py)view",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC4viewSo6UIViewCvp",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "view",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)view",
+                "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC4viewSo6UIViewCvg",
+                "moduleName": "ReklamupAdmobAdapter",
+                "isOpen": true,
+                "objc_name": "view",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RUPCustomEventBanner",
+                "printedName": "ReklamupAdmobAdapter.RUPCustomEventBanner",
+                "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)init",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerCACycfc",
+            "moduleName": "ReklamupAdmobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADMediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.GADMediationBannerAdConfiguration",
+                "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?) -> GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GADMediationBannerAdEventDelegate",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(GoogleMobileAds.GADMediationBannerAd?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "GoogleMobileAds.GADMediationBannerAd?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GADMediationBannerAd",
+                            "printedName": "GoogleMobileAds.GADMediationBannerAd",
+                            "usr": "c:objc(pl)GADMediationBannerAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)loadBannerFor:completionHandler:",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC04loadF03for17completionHandlerySo012GADMediationF15AdConfigurationC_So0kflE8Delegate_pSgSo0kfL0_pSg_s5Error_pSgtctF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "loadBannerFor:completionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidReceiveAd",
+            "printedName": "bannerViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)bannerViewDidReceiveAd:",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC22bannerViewDidReceiveAdyySo09GADBannerH0CF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "bannerViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerView",
+            "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)bannerView:didFailToReceiveAdWithError:",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC10bannerView_27didFailToReceiveAdWithErrorySo09GADBannerH0C_s0O0_ptF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "bannerView:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordClick",
+            "printedName": "bannerViewDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)bannerViewDidRecordClick:",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC24bannerViewDidRecordClickyySo09GADBannerH0CF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "bannerViewDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordImpression",
+            "printedName": "bannerViewDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner(im)bannerViewDidRecordImpression:",
+            "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC29bannerViewDidRecordImpressionyySo09GADBannerH0CF",
+            "moduleName": "ReklamupAdmobAdapter",
+            "isOpen": true,
+            "objc_name": "bannerViewDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReklamupAdmobAdapter@objc(cs)RUPCustomEventBanner",
+        "mangledName": "$s20ReklamupAdmobAdapter20RUPCustomEventBannerC",
+        "moduleName": "ReklamupAdmobAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
