@@ -27,7 +27,7 @@ Reklamup iOS adapter for Admob.
 
 ### CocoaPods
 
-[CocoaPods](https://cocoapods.org) is a dependency manager. For usage and installation instructions, visit their website. To integrate AdmostFairAds using CocoaPods, specify it in your `Podfile`:
+[CocoaPods](https://cocoapods.org) is a dependency manager. For usage and installation instructions, visit their website. To integrate ReklamupAdapterAdmob using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'ReklamupAdmobAdapter', '~> 1.0'
@@ -62,7 +62,7 @@ You can add each placement as **custom event**  as shown in the figure below.
 
 ## FAQ
 
-You can send email. [Admost](mailto:dev@reklamup.com?subject=Reklamup%20Admob%20Adapter%20iOS)
+You can send email. [ReklamUP](mailto:dev@reklamup.com?subject=Reklamup%20Admob%20Adapter%20iOS)
 
 ## Credits
 
