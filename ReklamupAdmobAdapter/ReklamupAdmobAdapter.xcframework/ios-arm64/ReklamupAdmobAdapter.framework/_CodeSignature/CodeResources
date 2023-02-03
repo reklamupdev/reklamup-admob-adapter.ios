@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Xv9WSBmFHfmoFvyCCMqtW3BOstI=
+		GrcF2L2WIbtk9I1R+ySygOLOVlY=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		XJhs9IQCLW0ybrojgkox8OQHpc8=
+		NZhwloQAeBvrsxhIYt/q0pT44FM=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fiLy/repzmIVUZ+fHm3AHfeEQIM=
+		qzxaKGer2hsd0Lt5EYFRWGte5DI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJhs9IQCLW0ybrojgkox8OQHpc8=
+			NZhwloQAeBvrsxhIYt/q0pT44FM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uDPS6VsVjU/LxkmJrqtlsc5qc7k05l6RW3VwIoqHeNw=
+			xK8uzNNlr/USihwgf4d90WZBnJgjmNFsE9BH49fW4iI=
 			</data>
 		</dict>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fiLy/repzmIVUZ+fHm3AHfeEQIM=
+			qzxaKGer2hsd0Lt5EYFRWGte5DI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mhkg2l9LIDSOTTcEcgKaZRIBriCnf5BEYbrU2Y5DhIc=
+			At3D2Nq2uWxtjNuIUGa4eU48FoR8gM6hi+1ENqieOAc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

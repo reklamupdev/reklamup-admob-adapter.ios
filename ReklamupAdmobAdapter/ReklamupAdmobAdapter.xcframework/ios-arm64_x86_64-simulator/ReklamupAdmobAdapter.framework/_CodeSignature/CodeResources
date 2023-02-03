@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sYFevekQZMMs2sB6HoSGDasO9SQ=
+		wpjk8CiadpKQSQoNci3yMzqG8qE=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		O8NLAxM6RpsFIA7avMv+LsG9Z3o=
+		rK6pBjF/iuDOStltkoDvtHtlbS4=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		4ZBJVlUfuT2dz/Kb+taunksBlNk=
+		S3eUX5x86yyClWUW9aHgPK+xhhI=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		46TzL1N22aC+C6vuiy9cx7JHUsc=
+		rvr9yE/aZ10Y2b7SqNyJNtfUdNI=
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cCOnOS47lvAEE2VFd4zYpLWYFlA=
+		v3GxXcOZTsFw9oLory9xmEqVP6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,22 +82,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O8NLAxM6RpsFIA7avMv+LsG9Z3o=
+			rK6pBjF/iuDOStltkoDvtHtlbS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/qSlzX5/fXkSlZe4dnGCoGRxprx2hlAlPrxbIVJRbrM=
+			Ha5Y60uYrSUYdE3dcbKKDdqSkd6uee+RzUpBK/7EfMI=
 			</data>
 		</dict>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4ZBJVlUfuT2dz/Kb+taunksBlNk=
+			S3eUX5x86yyClWUW9aHgPK+xhhI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kmQhQPLDJAuN8uzF2amVW/yvohw33C0BSe5wuGlyvvM=
+			ePxSiMo45YS7LSiXI0E9MyuXV932fm4kRbjRRa18EW0=
 			</data>
 		</dict>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -148,11 +148,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			46TzL1N22aC+C6vuiy9cx7JHUsc=
+			rvr9yE/aZ10Y2b7SqNyJNtfUdNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9ZbwlJt1plokho3kDM8ilGtlDVhI4ou9tkLy8WyBl4=
+			TlopkMexn8Cbi1ebNu142Qlvqq1pCQ4dxKaE2ci135k=
 			</data>
 		</dict>
 		<key>Modules/ReklamupAdmobAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cCOnOS47lvAEE2VFd4zYpLWYFlA=
+			v3GxXcOZTsFw9oLory9xmEqVP6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/IyPeRqDgqxLAPpwqGXcnRk2KDLgNkcZKQSwqid/8+0=
+			A6q4FR9AAZ6OPYXkgsaivGaOhmxeCq6TU9XN+3VpcAI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
