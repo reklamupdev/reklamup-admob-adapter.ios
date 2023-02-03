@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReklamupAdmobAdapter'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Reklamup iOS adapter for Admob'
 
   s.description      = <<-DESC
@@ -27,6 +27,6 @@ Reklamup Admob Adapter allows to monetize your application with Admob.
   s.documentation_url = 'https://github.com/reklamupdev/reklamup-admob-adapter.ios'
   s.swift_versions = ['5']
   s.vendored_frameworks = 'ReklamupAdmobAdapter/ReklamupAdmobAdapter.xcframework'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 9.13'
+  s.dependency 'Google-Mobile-Ads-SDK'
   s.frameworks = 'UIKit'
 end
