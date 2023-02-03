@@ -22,6 +22,7 @@ Reklamup iOS adapter for Admob.
 - iOS 10.0+
 - Xcode 14.1+
 - Swift 5.3+
+- GoogleMobileAds 9.13+
 
 ## Installation
 
